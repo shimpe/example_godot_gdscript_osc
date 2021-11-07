@@ -22,3 +22,5 @@ fork {
 };
 )
 ```
+
+![alt text](https://github.com/shimpe/example_godot_gdscript_osc/blob/main/test.gif?raw=true)
