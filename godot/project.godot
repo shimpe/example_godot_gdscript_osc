@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="testosc"
+run/main_scene="res://Node2D.tscn"
+
+[debug]
+
+settings/fps/force_fps=30
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

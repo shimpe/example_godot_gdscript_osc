@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://circle.png" type="Texture" id=1]
+[ext_resource path="res://Server.gd" type="Script" id=2]
+[ext_resource path="res://Sensor.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sensor1" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor2" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor3" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor4" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor5" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor6" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor7" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor8" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor9" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor10" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor11" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor12" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor13" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor14" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor15" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Sensor16" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
