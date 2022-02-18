@@ -1,6 +1,10 @@
 # example_godot_gdscript_osc
 simple project showing how a godot game can react to osc messages
 
+for some background information, please refer to the blog topics at
+part I: https://technogems.blogspot.com/2020/02/driving-godot-game-engine-with-osc.html
+part II: https://technogems.blogspot.com/2021/11/driving-godot-game-engine-with-osc.html
+
 The project defines a grid of 16 "sensors".
 
 Each sensor has a script attached to it to that implements modulation of the sensor color. It expects 3 arguments: a min value, a max value and a current value. The color of the sensor will adapt to the "current value" proportional to where it lies between the min value and the max value. E.g. if you send (0, 100, 49) the sensor will light up for 49%, since 49 lies at 49% between 0 and 100. When the main scene is instantiated, each sensor is added to a list of "observers", meaning that they will be contacted when a relevant OSC message is received.
