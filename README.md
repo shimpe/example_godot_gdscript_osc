@@ -2,8 +2,8 @@
 simple project showing how a godot game can react to osc messages
 
 for some background information, please refer to the blog topics at
-part I: https://technogems.blogspot.com/2020/02/driving-godot-game-engine-with-osc.html
-part II: https://technogems.blogspot.com/2021/11/driving-godot-game-engine-with-osc.html
+* part I: https://technogems.blogspot.com/2020/02/driving-godot-game-engine-with-osc.html
+* part II: https://technogems.blogspot.com/2021/11/driving-godot-game-engine-with-osc.html
 
 The project defines a grid of 16 "sensors".
 
