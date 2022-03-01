@@ -1,5 +1,5 @@
 # example_godot_gdscript_osc
-simple project showing how a godot game can react to osc messages
+simple project showing how a godot 3 game can react to osc messages in gdscript (no gdnative required)
 
 for some background information, please refer to the blog topics at
 * part I: https://technogems.blogspot.com/2020/02/driving-godot-game-engine-with-osc.html
